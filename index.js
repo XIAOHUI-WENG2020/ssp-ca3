@@ -96,7 +96,7 @@ router.post('/post/delete', function (req, res) {
         XMLtoJSON('joblist.xml', function (err, result) {
             if (err) throw (err);
             
-            delete result.joblist.jobType[obj.jobType].entry[obj.entree];
+            delete result.joblist.jobType[obj.jobType].entry[obj.entry];
 
             console.log(JSON.stringify(result, null, "  "));
 
