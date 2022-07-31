@@ -5,14 +5,9 @@ const   http = require('http'), //provides the HTTP server functionalities
         xmlParse = require('xslt-processor').xmlParse, //llows to work with XML files
         xsltProcess = require('xslt-processor').xsltProcess, //allows us to uitlise XSL Transformations
         xml2js = require('xml2js'); //This module does XML <-> JSON conversion
-
-
         // code reference 
         // cct class records:
         // https://drive.google.com/drive/folders/1Nsjss6YvewPe2G6oNb-pY1a4YRSmI6vZ 
-
-
-
 const   router = express(), 
         server = http.createServer(router);
 
