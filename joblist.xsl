@@ -41,14 +41,13 @@
             </td>
         </tr>
         </xsl:for-each>
-        </xsl:for-each>
-     </tbody>    
-    </table>
+    </xsl:for-each>
+    </tbody>    
+</table>
     <form class="indent">
-	<p><input type="button" name="btnjobSaved" value="Job Saved" id="jobSaved"/>
-    Saved Jobs:
-    <input type="text" name="txtBillAmt"/><input type="checkbox" name="cbOpts" value="isjob" id="showjob"/><label for="showjob">Highlight jobs</label></p>
-	</form>
+        <p><input type="button" name="btnjobSaved" value="Job Saved" id="jobSaved"/></p>
+        Saved Jobs:
+        </form>
     </body>
 </html>
 </xsl:template>
