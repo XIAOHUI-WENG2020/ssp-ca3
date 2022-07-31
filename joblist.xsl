@@ -1,5 +1,5 @@
 <?xml version="1.0"?> 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
 <html>
      <body>
@@ -20,9 +20,9 @@
             <xsl:for-each select="//jobType">
             <tr>
             <td colspan="3">
-                <xsl:value-of select="jobType@categories" />
+                <xsl:value-of select="@categories" />
             </td>
-            </tr>    
+            </tr>
             <xsl:for-each select="entry">
             <tr id="{postion()}">
                 <td align="center">
@@ -43,7 +43,7 @@
             <p><input type="button" name="btnjobSaved" value="Job Saved" id="jobSaved"/></p>
             Saved Jobs:
             </form>
-    </body>
+     </body>
 </html>
 </xsl:template>
 

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- code reference:
-cct Server-side Programming class records
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<!-- code reference 
+cct class records:
 https://drive.google.com/drive/folders/1Nsjss6YvewPe2G6oNb-pY1a4YRSmI6vZ -->
 <joblist>
-    <jobTpye categories="Sales">
+    <jobType categories="Sales">
     <entry>
         <company>Pandora</company>
         <jobTitle>Sales Assistant</jobTitle>
     </entry>
-        <entry>
+    <entry>
         <company>Advanced</company>
         <jobTitle>Sales Manager</jobTitle>
     </entry>
-    </jobTpye>
-    <jobTpye categories="IT">
+    </jobType>
+    <jobType categories="IT">
     <entry>
         <company>CPL</company>
         <jobTitle>IT Technician</jobTitle>
@@ -22,9 +23,9 @@ https://drive.google.com/drive/folders/1Nsjss6YvewPe2G6oNb-pY1a4YRSmI6vZ -->
         <company>LSC,life Science Consultants</company>
         <jobTitle>IT Analyst</jobTitle>
     </entry>
-    </jobTpye>
+    </jobType>
     
-    <jobTpye categories="Accountancy">
+    <jobType categories="Accountancy">
     <entry>
         <company>HelpGrid</company>
         <jobTitle>Accoumt Manager</jobTitle>
@@ -33,9 +34,9 @@ https://drive.google.com/drive/folders/1Nsjss6YvewPe2G6oNb-pY1a4YRSmI6vZ -->
         <company>Frontiers</company>
         <jobTitle>Payroll Assistant</jobTitle>
     </entry>
-    </jobTpye>
+    </jobType>
 
-    <jobTpye categories="Marketing">
+    <jobType categories="Marketing">
     <entry>
         <company>PML Group</company>
         <jobTitle>Marketing Executive</jobTitle>
@@ -44,5 +45,6 @@ https://drive.google.com/drive/folders/1Nsjss6YvewPe2G6oNb-pY1a4YRSmI6vZ -->
         <company>Sage</company>
         <jobTitle>Marketing EXec</jobTitle>
     </entry>
-    </jobTpye>
+    </jobType>
 </joblist>
+</xsl:stylesheet>
