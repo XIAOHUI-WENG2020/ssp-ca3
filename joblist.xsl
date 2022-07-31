@@ -1,12 +1,8 @@
 <?xml version="1.0"?> 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
-<html>
-<th>
 <table id="Jobtable" border="1" class="indent">
-</th>
 <thead>
-
 <tr>
     <th>Select</th>
     <th>jobType</th>
@@ -16,7 +12,6 @@
 </tr>
 </thead>
 
-<title>Find your Job</title>
 <tbody>
     <xsl:for-each select="//jobType">
     <tr>
