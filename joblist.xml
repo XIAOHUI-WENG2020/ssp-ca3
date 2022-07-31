@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<joblist>
+    <jobTpye categories="Sales">
+    <entry>
+        <company>Pandora</company>
+        <jobTitle>Sales Assistant</jobTitle>
+    </entry>
+        <entry>
+        <company>Advanced</company>
+        <jobTitle>Sales Manager</jobTitle>
+    </entry>
+    </jobTpye>
+    <jobTpye categories="IT">
+    <entry>
+        <company>CPL</company>
+        <jobTitle>IT Technician</jobTitle>
+    </entry>
+    <entry>
+        <company>LSC,life Science Consultants</company>
+        <jobTitle>IT Analyst</jobTitle>
+    </entry>
+    </jobTpye>
+    
+    <jobTpye categories="Accountancy">
+    <entry>
+        <company>HelpGrid</company>
+        <jobTitle>Accoumt Manager</jobTitle>
+    </entry>
+     <entry>
+        <company>Frontiers</company>
+        <jobTitle>Payroll Assistant</jobTitle>
+    </entry>
+    </jobTpye>
+
+    <jobTpye categories="Marketing">
+    <entry>
+        <company>PML Group</company>
+        <jobTitle>Marketing Executive</jobTitle>
+    </entry>
+    <entry>
+        <company>Sage</company>
+        <jobTitle>Marketing EXec</jobTitle>
+    </entry>
+    </jobTpye>
+</joblist>
